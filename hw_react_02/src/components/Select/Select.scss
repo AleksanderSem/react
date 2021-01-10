@@ -1,0 +1,15 @@
+select {
+  width: 200px;
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 14px;
+  background-color: #fff;
+  border: 1px solid rgb(129, 125, 125);
+  border-radius: 5px;
+  outline: none;
+  transition: border .3s ease;
+
+  &:focus {
+    border-color: rgb(49, 48, 48);
+  }
+}

@@ -1,0 +1,28 @@
+.wrapper {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;  
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+form input {
+  margin-bottom: 15px;  
+}
+
+.step {
+  margin: 0;
+  padding-bottom: 20px;
+  font-weight: 500;
+  color: #f17b1a;
+}
+
+.step-header {
+  margin: 0;
+  margin-bottom: 20px;
+}

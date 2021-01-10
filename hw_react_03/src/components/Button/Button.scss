@@ -1,0 +1,22 @@
+.btn {
+  display: inline-block;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #f85e30;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s;
+
+  &:hover {
+    background-color: #fa4711;
+  }
+
+  &:active {
+    transform: scale(0.9);
+  }
+}

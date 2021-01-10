@@ -1,0 +1,11 @@
+.page-header {
+  background-color: rgba(179, 176, 176, 0.452);
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 0;
+  }
+}

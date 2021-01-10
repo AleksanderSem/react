@@ -1,0 +1,1 @@
+export const avatarStateSelector = state => state.userAvatar;

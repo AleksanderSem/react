@@ -1,0 +1,30 @@
+form .form {
+  &-item {
+    margin-top: 15px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:nth-last-of-type(1) {
+      margin-bottom: 15px;
+    }
+  }
+}
+
+input[type=text],
+input[type=password],
+input[type=email] {
+  width: 200px;
+  padding: 10px;
+  font-size: 14px;
+  background-color: #fff;
+  border: 1px solid rgb(129, 125, 125);
+  border-radius: 5px;
+  outline: none;
+  transition: border .3s ease;
+
+  &:focus {
+    border-color: rgb(49, 48, 48);
+  }
+}

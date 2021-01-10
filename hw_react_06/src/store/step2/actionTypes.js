@@ -1,0 +1,3 @@
+export default {
+  ADD_USER_ADDRESS_INFO: "ADD_USER_ADDRESS_INFO",
+}

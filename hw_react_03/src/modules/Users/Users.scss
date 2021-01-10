@@ -1,0 +1,26 @@
+.users {
+  padding: 20px 0;
+
+  &__list {
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: -30px;
+  }
+}
+
+@media (min-width: 576px) {
+
+  .users__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  .users {
+    width: 85%;
+  }
+  
+}

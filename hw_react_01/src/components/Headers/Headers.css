@@ -1,0 +1,51 @@
+.page-header {
+      background-color: rgba(179, 176, 176, 0.452);
+    }
+    
+    .page-header__inner {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 10px 0;
+    }
+    
+    input,
+    select {
+      width: 200px;
+      margin-right: 10px;
+      padding: 10px;
+      font-size: 14px;
+      background-color: #fff;
+      border: 1px solid rgb(129, 125, 125);
+      border-radius: 5px;
+      outline: none;
+      transition: border .3s ease;
+    }
+    
+    input:focus {
+      border-color: rgb(49, 48, 48);
+    }
+    
+    .btn {
+      display: inline-block;
+      padding: 10px;
+      font-size: 14px;
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      background-color: #f85e30;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      outline: none;
+      transition: 0.2s;
+    }
+    
+    .btn:hover {
+      background-color: #fa4711;
+    }
+    
+    .btn:active {
+      transform: scale(0.9);
+    }
